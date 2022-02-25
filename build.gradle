@@ -28,6 +28,7 @@ dependencies {
 	testImplementation 'org.springframework.kafka:spring-kafka-test'
 	implementation 'org.mapstruct:mapstruct:1.4.1.Final'
 	annotationProcessor 'org.mapstruct:mapstruct-processor:1.4.1.Final'
+	implementation 'org.springframework.cloud:spring-cloud-starter-openfeign:3.1.1'
 
 }
 
